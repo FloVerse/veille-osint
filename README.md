@@ -1,4 +1,4 @@
-# 🕵️ Projet de veille OSINT automatisée
+# Projet de veille OSINT automatisée
 
 Ce projet interroge quotidiennement GitHub pour détecter les dépôts récents liés à l'OSINT (Open Source Intelligence). Il filtre les résultats selon des mots-clés pertinents, puis les exporte automatiquement dans un fichier CSV horodaté.
 
@@ -10,12 +10,10 @@ Ce projet interroge quotidiennement GitHub pour détecter les dépôts récents 
 
 ## 📦 Installation
 
-pip install -r requirements.txt
-
+`pip install -r requirements.txt`
 
 ## ▶️ Lancement
-python veille_osint.py
-
+`python veille_osint.py`
 
 ## 📁 Résultats
 Les fichiers `.csv` sont enregistrés dans le dossier `exports/`.
@@ -24,6 +22,3 @@ Les fichiers `.csv` sont enregistrés dans le dossier `exports/`.
 - Veille sur les nouveaux outils OSINT open-source
 - Détection d'outils exploitables pour des moteurs d'analyse
 - Apprentissage personnel en automatisation + cyberveille
-
-## 👤 Auteur
-Florian CHACUN
